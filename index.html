@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home | Aesthetic Web</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">AestheticWeb</h1>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <div class="card">
+      <h2>Welcome to AestheticWeb 🌸</h2>
+      <p>This site blends modern design with soft visuals to create a calming experience.</p>
+      <button onclick="document.getElementById('features').scrollIntoView({ behavior: 'smooth' })" class="btn" style="margin-top:1rem;">Explore More ↓</button>
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Nature image" />
+    </div>
+  </section>
+
+  <!-- ✨ Features Section -->
+  <section id="features">
+    <h2 style="margin-bottom:2rem;">✨ Features You'll Love</h2>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem;">
+      <div class="card" style="max-width: 300px;">
+        <h3>🎨 Soft UI</h3>
+        <p>Enjoy beautiful pastel gradients and smooth layouts across all devices.</p>
+      </div>
+      <div class="card" style="max-width: 300px;">
+        <h3>⚡ Fast Performance</h3>
+        <p>Lightweight, static HTML/CSS site loads fast with no bloat.</p>
+      </div>
+      <div class="card" style="max-width: 300px;">
+        <h3>📱 Mobile Friendly</h3>
+        <p>Responsive design works seamlessly on phones, tablets, and desktops.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AestheticWeb. All rights reserved.</p>
+  </footer>
+</body>
+</html>
